@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boumper X HUD</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div id="app">
+
+  <!-- AVATAR / HOME -->
+  <div id="avatar"></div>
+
+  <!-- VENTANA -->
+  <div id="window" class="hidden">
+
+    <div class="window-content">
+      <div id="messages"></div>
+
+      <button id="openInput">text</button>
+
+      <input
+        id="textInput"
+        class="hidden"
+        type="text"
+        placeholder="..."
+        autocomplete="off"
+      />
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
