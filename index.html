@@ -2,38 +2,36 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Boumper X HUD</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Boumper X – HUD</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<div id="app">
+  <div class="app">
 
-  <!-- AVATAR / HOME -->
-  <div id="avatar"></div>
+    <!-- 🕒 Top HUD -->
+    <div class="top">
+      <div class="energy">
+        <span class="orb"></span>
+        <span class="label">NOCHE</span>
+      </div>
+      <div id="time">00:00</div>
+    </div>
 
-  <!-- VENTANA -->
-  <div id="window" class="hidden">
-
-    <div class="window-content">
-      <div id="messages"></div>
-
-      <button id="openInput">text</button>
-
-      <input
-        id="textInput"
-        class="hidden"
-        type="text"
-        placeholder="..."
-        autocomplete="off"
-      />
+    <!-- 🧍 Avatar -->
+    <div class="center">
+      <div class="avatar" id="avatar">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
     </div>
 
   </div>
 
-</div>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
